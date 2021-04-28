@@ -1,0 +1,72 @@
+Error: failed to open file 'mmemory.vmh' because No such file or directory
+Warning: file 'memory.vmh' for memory 'mem' has a gap at addresses 19 to 65535.
+
+cycle          0
+Fetch : from Pc          0 , expanded inst : 00a00793, 
+addi r15 = r 0 0xa
+
+Cycle          0 ----------------------------------------------------
+
+cycle          1
+
+Cycle          1 ----------------------------------------------------
+
+cycle          2
+
+Cycle          2 ----------------------------------------------------
+
+cycle          3
+Fetch : from Pc          4 , expanded inst : 00a78893, 
+addi r17 = r15 0xa
+
+Cycle          3 ----------------------------------------------------
+
+cycle          4
+
+Cycle          4 ----------------------------------------------------
+
+cycle          5
+
+Cycle          5 ----------------------------------------------------
+
+cycle          6
+Fetch : from Pc          8 , expanded inst : ff188893, 
+addi r17 = r17 0xfffffff1
+
+Cycle          6 ----------------------------------------------------
+
+cycle          7
+
+Cycle          7 ----------------------------------------------------
+
+cycle          8
+
+Cycle          8 ----------------------------------------------------
+
+cycle          9
+Fetch : from Pc         12 , expanded inst : ffb88513, 
+addi r10 = r17 0xfffffffb
+
+Cycle          9 ----------------------------------------------------
+
+cycle         10
+
+Cycle         10 ----------------------------------------------------
+
+cycle         11
+
+Cycle         11 ----------------------------------------------------
+
+cycle         12
+Fetch : from Pc         16 , expanded inst : 78051073, 
+csrrw r 0 csr0x780 r10
+
+Cycle         12 ----------------------------------------------------
+
+cycle         13
+
+Cycle         13 ----------------------------------------------------
+
+cycle         14
+
+Cycle         14 ----------------------------------------------------
