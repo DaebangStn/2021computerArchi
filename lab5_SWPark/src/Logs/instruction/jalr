@@ -1,0 +1,125 @@
+Error: failed to open file 'mmemory.vmh' because No such file or directory
+Warning: file 'memory.vmh' for memory 'mem' has a gap at addresses 14 to 65535.
+
+cycle          0
+Fetch : from Pc          0 , 
+
+
+Cycle          0 ----------------------------------------------------
+
+cycle          1
+decode          0 
+
+Fetch : from Pc          4 , 
+
+
+Cycle          1 ----------------------------------------------------
+
+cycle          2
+rest:          0, 
+
+Fetch : from Pc          8 , 
+
+
+Cycle          2 ----------------------------------------------------
+
+cycle          3
+decode          4 
+
+Fetch : from Pc         12 , 
+
+
+Cycle          3 ----------------------------------------------------
+
+cycle          4
+rest:          4, 
+
+
+Cycle          4 ----------------------------------------------------
+
+cycle          5
+decode          8 
+
+Fetch : from Pc         16 , 
+
+
+Cycle          5 ----------------------------------------------------
+
+cycle          6
+rest:          8, 
+
+
+Cycle          6 ----------------------------------------------------
+
+cycle          7
+decode         12 
+
+Fetch : from Pc         20 , 
+
+
+Cycle          7 ----------------------------------------------------
+
+cycle          8
+rest:         12, 
+
+jump! :mispredicted, address         20 
+
+Cycle          8 ----------------------------------------------------
+
+cycle          9
+decode         16 
+
+Fetch : from Pc         20 , 
+
+
+Cycle          9 ----------------------------------------------------
+
+cycle         10
+decode         20 
+
+Fetch : from Pc         24 , 
+
+
+Cycle         10 ----------------------------------------------------
+
+cycle         11
+decode         20 
+
+Fetch : from Pc         28 , 
+
+
+Cycle         11 ----------------------------------------------------
+
+cycle         12
+rest:         20, 
+
+
+Cycle         12 ----------------------------------------------------
+
+cycle         13
+decode         24 
+
+Fetch : from Pc         32 , 
+
+
+Cycle         13 ----------------------------------------------------
+
+cycle         14
+rest:         24, 
+
+
+Cycle         14 ----------------------------------------------------
+
+cycle         15
+decode         28 
+
+Fetch : from Pc         36 , 
+
+
+Cycle         15 ----------------------------------------------------
+
+cycle         16
+rest:         28, 
+
+
+Cycle         16 ----------------------------------------------------

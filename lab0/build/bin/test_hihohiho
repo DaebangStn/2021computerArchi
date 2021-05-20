@@ -9,4 +9,4 @@ do
     exec $BLUESPECDIR/tcllib/bluespec/bluesim.tcl $0.so mkHiHoHiHo --script_name `basename $0` -h
   fi
 done
-exec $BLUESPECDIR/tcllib/bluespec/bluesim.tcl $0.so mkHiHoHiHo --script_name `basename $0` --creation_time 1614905927 "$@"
+exec $BLUESPECDIR/tcllib/bluespec/bluesim.tcl $0.so mkHiHoHiHo --script_name `basename $0` --creation_time 1619655165 "$@"
